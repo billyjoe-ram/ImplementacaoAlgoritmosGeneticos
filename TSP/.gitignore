@@ -1,0 +1,34 @@
+# Diretórios de build
+/build/
+*/build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.o
+*.so
+*.a
+*.dll
+*.exe
+*.out
+
+# Arquivos de configuração do CMake
+CMakeLists.txt.user
+CMakeLists.txt.cmake
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Diretórios de IDEs
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
