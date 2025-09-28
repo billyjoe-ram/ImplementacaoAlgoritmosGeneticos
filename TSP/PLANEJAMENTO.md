@@ -142,7 +142,7 @@ cmake --build .
 
 ## Testar
 
-Para compilar e executar os testes unitários (Catch2, Google Test ou outro framework):
+Para compilar e executar os testes unitários:
 
 ### GCC / Clang++
 
@@ -157,7 +157,9 @@ g++ -std=c++17 tests/*.cpp src/*.cpp -o tests
 cl /EHsc /std:c++17 tests\*.cpp src\*.cpp /Fe:tests.exe
 tests.exe
 ```
+
+```
 g++ -std=c++17 tests/*.cpp src/*.cpp -o tests && ./tests
 OU
 clang++ -std=c++17 src/*.cpp -o tsp
-
+```
