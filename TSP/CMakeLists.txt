@@ -3,23 +3,14 @@ project(TSP)
 
 set(CMAKE_CXX_STANDARD 11)
 
-Include(FetchContent)
+add_executable(TSPCpp src/main.cpp
+        src/city.cpp
+        src/city.h
+        src/population.cpp
+        src/population.h
+        src/genetic.cpp
+        src/genetic.h)
 
-FetchContent_Declare(
-        Catch2
-        GIT_REPOSITORY https://github.com/catchorg/Catch2.git
-        GIT_TAG        v3.8.1
-)
-
-FetchContent_MakeAvailable(Catch2)
-
-add_executable(TSPCpp main.cpp)
 add_executable(tests tests/test_city.cpp
         tests/test_genetic.cpp
         tests/test_population.cpp)
-
-target_link_libraries(tests PRIVATE Catch2::Catch2WithMain)
-
-include(CTest)
-include(Catch)
-catch_discover_tests(tests)
