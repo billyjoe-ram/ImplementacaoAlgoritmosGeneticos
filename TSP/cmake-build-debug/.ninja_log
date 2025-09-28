@@ -1,0 +1,4 @@
+# ninja log v5
+1	1449	7807953402431636	build.ninja	5c18f2cd839cd1a7
+1	353	7807952971258168	CMakeFiles/TSPCpp.dir/main.cpp.obj	d74c2c2de1f6b7d9
+355	503	7807952972735644	TSPCpp.exe	43d8b45313dba6ce

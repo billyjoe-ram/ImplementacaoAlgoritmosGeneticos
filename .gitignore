@@ -24,7 +24,7 @@ CMakeLists.txt.cmake
 *.temp
 
 # Diretórios de IDEs
-.idea/
+TSP/.idea/
 .vscode/
 *.sublime-workspace
 *.sublime-project
