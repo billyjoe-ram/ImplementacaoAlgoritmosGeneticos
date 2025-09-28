@@ -14,7 +14,10 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(Catch2)
 
 add_executable(TSPCpp main.cpp)
-add_executable(tests tests.cpp)
+add_executable(tests tests/test_city.cpp
+        tests/test_genetic.cpp
+        tests/test_population.cpp)
+
 target_link_libraries(tests PRIVATE Catch2::Catch2WithMain)
 
 include(CTest)
