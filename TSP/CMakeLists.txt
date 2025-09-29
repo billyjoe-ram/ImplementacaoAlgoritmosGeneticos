@@ -3,6 +3,8 @@ project(TSP)
 
 set(CMAKE_CXX_STANDARD 11)
 
+find_package(Catch2 3 REQUIRED)
+
 add_executable(TSPCpp src/main.cpp
         src/city.cpp
         src/city.h
@@ -11,6 +13,10 @@ add_executable(TSPCpp src/main.cpp
         src/genetic.cpp
         src/genetic.h)
 
-add_executable(tests tests/test_city.cpp
+add_executable(tests
+        tests/test_city.cpp
         tests/test_genetic.cpp
-        tests/test_population.cpp)
+        tests/test_population.cpp
+)
+
+target_link_libraries(tests PRIVATE Catch2::Catch2WithMain)

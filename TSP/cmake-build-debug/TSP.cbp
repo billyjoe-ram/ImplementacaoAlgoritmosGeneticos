@@ -5,7 +5,7 @@
 		<Option title="TSP"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\Users\;CMake Files\..\..\..\..\Users\billy\;CMake Files\..\..\..\..\Users\billy\.vcpkg-clion\;CMake Files\..\..\..\..\Users\billy\.vcpkg-clion\vcpkg\;CMake Files\..\..\..\..\Users\billy\.vcpkg-clion\vcpkg\scripts\;CMake Files\..\..\..\..\Users\billy\.vcpkg-clion\vcpkg\scripts\buildsystems\;CMake Files\..\..\..\..\Users\billy\.vcpkg-clion\vcpkg\installed\;CMake Files\..\..\..\..\Users\billy\.vcpkg-clion\vcpkg\installed\x64-mingw-dynamic\;CMake Files\..\..\..\..\Users\billy\.vcpkg-clion\vcpkg\installed\x64-mingw-dynamic\share\;CMake Files\..\..\..\..\Users\billy\.vcpkg-clion\vcpkg\installed\x64-mingw-dynamic\share\catch2\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/repos/CLionProjects/ImplementacaoAlgoritmosGeneticos/TSP/cmake-build-debug"/>
@@ -68,6 +68,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="C:/Users/billy/.vcpkg-clion/vcpkg/installed/x64-mingw-dynamic/include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
@@ -90,6 +91,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="C:/Users/billy/.vcpkg-clion/vcpkg/installed/x64-mingw-dynamic/include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
@@ -158,6 +160,24 @@
 		</Unit>
 		<Unit filename="C:/repos/CLionProjects/ImplementacaoAlgoritmosGeneticos/TSP/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/repos/CLionProjects/ImplementacaoAlgoritmosGeneticos/TSP/../../../../Users/billy/.vcpkg-clion/vcpkg/scripts/buildsystems/vcpkg.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\billy\.vcpkg-clion\vcpkg\scripts\buildsystems\"/>
+		</Unit>
+		<Unit filename="C:/repos/CLionProjects/ImplementacaoAlgoritmosGeneticos/TSP/../../../../Users/billy/.vcpkg-clion/vcpkg/installed/x64-mingw-dynamic/share/catch2/Catch2Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\billy\.vcpkg-clion\vcpkg\installed\x64-mingw-dynamic\share\catch2\"/>
+		</Unit>
+		<Unit filename="C:/repos/CLionProjects/ImplementacaoAlgoritmosGeneticos/TSP/../../../../Users/billy/.vcpkg-clion/vcpkg/installed/x64-mingw-dynamic/share/catch2/Catch2ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\billy\.vcpkg-clion\vcpkg\installed\x64-mingw-dynamic\share\catch2\"/>
+		</Unit>
+		<Unit filename="C:/repos/CLionProjects/ImplementacaoAlgoritmosGeneticos/TSP/../../../../Users/billy/.vcpkg-clion/vcpkg/installed/x64-mingw-dynamic/share/catch2/Catch2Targets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\billy\.vcpkg-clion\vcpkg\installed\x64-mingw-dynamic\share\catch2\"/>
+		</Unit>
+		<Unit filename="C:/repos/CLionProjects/ImplementacaoAlgoritmosGeneticos/TSP/../../../../Users/billy/.vcpkg-clion/vcpkg/installed/x64-mingw-dynamic/share/catch2/Catch2Targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\billy\.vcpkg-clion\vcpkg\installed\x64-mingw-dynamic\share\catch2\"/>
+		</Unit>
+		<Unit filename="C:/repos/CLionProjects/ImplementacaoAlgoritmosGeneticos/TSP/../../../../Users/billy/.vcpkg-clion/vcpkg/installed/x64-mingw-dynamic/share/catch2/Catch2Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\billy\.vcpkg-clion\vcpkg\installed\x64-mingw-dynamic\share\catch2\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
